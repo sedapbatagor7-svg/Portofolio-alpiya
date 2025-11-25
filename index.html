@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Welcome</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="vh-100 d-flex align-items-center justify-content-center bg-light text-center">
+    <div>
+        <!-- Gambar profil yang kamu kirim (rename ke profile.jpg) -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ZoXwJZ4fI03vDEsDGCSXty1f_8Y-JQnITprMmm6Vbw&s=10" class="rounded-circle mb-3 Profile-img border border-dark" alt="Profile" width="180" height="180">
+
+        <h1 class="fw-bold">Alfiya</h1>
+        <p class="lead">Web Developer</p>
+        <a href="#projects" class="btn btn-primary btn-lg">See My Work</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5">
+  <div class="container">
+      <div class="row align-items-center">
+
+          <!-- Hapus gambar About -->
+          <div class="col-md-4"></div>
+
+          <div class="col-md-8">
+              <h2>About Me</h2>
+              <p>Nama Saya Muhmmad Alfiya Mufid Transiana, Saya adalah seorang web developer yang fokus pada frontend developer dengan pengalaman membuat website menggunakan HTML, CSS, dan Bootstrap.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      
+      <div class="row g-4">
+
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm">
+                  <!-- gambar dihapus -->
+                  <div class="card-body">
+                      <h5 class="card-title">Website Landing Page</h5>
+                      <p class="card-text">Membuat halaman landing page sederhana menggunakan HTML, CSS, dan Bootstrap.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm">
+                  <!-- gambar dihapus -->
+                  <div class="card-body">
+                      <h5 class="card-title">To-Do List App</h5>
+                      <p class="card-text">Aplikasi sederhana untuk mencatat kegiatan harian menggunakan JavaScript.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm">
+                  <!-- gambar dihapus -->
+                  <div class="card-body">
+                      <h5 class="card-title">Portfolio Design</h5>
+                      <p class="card-text">Desain dan pembuatan website portfolio responsif berbasis Bootstrap.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <form>
+                  <div class="mb-3">
+                      <label class="form-label">Nama</label>
+                      <input type="text" class="form-control">
+                  </div>
+
+                  <div class="mb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" class="form-control">
+                  </div>
+
+                  <div class="mb-3">
+                      <label class="form-label">Pesan</label>
+                      <textarea class="form-control" rows="4"></textarea>
+                  </div>
+
+                  <button class="btn btn-dark w-100">Send Message</button>
+              </form>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
